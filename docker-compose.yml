@@ -1,6 +1,6 @@
 services:
   db_mysql:
-   image: mysql:8.0
+    image: mysql:8.0
     container_name: db_mysql
     restart: always
     environment:
